@@ -1,0 +1,24 @@
+{
+  "name": "karma-with-webpack5",
+  "version": "1.0.0",
+  "description": "Karma + Webpack 5",
+  "scripts": {
+    "test": "node ./node_modules/karma/bin/karma start --single-run --log-level debug"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "bundle-loader": "0.5.2",
+    "istanbul": "0.4.5",
+    "istanbul-instrumenter-loader": "3.0.1",
+    "karma": "5.2.3",
+    "karma-coverage": "2.0.3",
+    "karma-mocha": "2.0.1",
+    "karma-chrome-launcher": "3.1.0",
+    "karma-webpack": "5.0.0-alpha.3.0",
+    "webpack": "5.2.0",
+    "webpack-dev-server": "3.11.0",
+    "mocha": "8.2.0",
+    "mocha-loader": "5.1.5"
+
+  }
+}
