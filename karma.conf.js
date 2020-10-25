@@ -16,7 +16,11 @@ module.exports = function(config) {
     reporters: ['progress'],
 
     webpack: {
-      // webpack configuration
+      // webpack configuration => makes karma-webpack work!
+      optimization: {
+        runtimeChunk: false,
+        splitChunks: false
+      },
       module: {
         rules: [
           {
